@@ -1,4 +1,4 @@
-arr[red, blac, blue, dark]
+arr = []
 
 while 2 + 2 == 4
     
