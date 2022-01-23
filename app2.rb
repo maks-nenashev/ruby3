@@ -1,10 +1,17 @@
 arr = []
 
-arr << 4
-arr << 5
-arr << 7
+while 2 + 2 == 4
+    
+puts"Color"
+color = gets.strip
+ 
 
-puts arr
+if color == "stop"
+    puts arr
+    exit
+ end
+    arr << color
+end
 
 puts "Program finished. Press Enter to exit."
 gets
