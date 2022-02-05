@@ -1,6 +1,6 @@
-cauntries {
+cauntries = {
 "RU"=>"Russia",
-"UA"=> "Ukraine",
+"UA"=>"Ukraine",
   1 => 1.01
 }
 puts ["RU"]
