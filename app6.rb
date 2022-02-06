@@ -1,6 +1,6 @@
-arr = ['Bob',"Max","Zak"]
+arr = ['Bob',"Max","Zak","Mark","Mubek"]
 
-loop do
+loop do    #you can write "while, true"
 
     x = 0
 
@@ -13,7 +13,7 @@ arr.each do |m|
   end
 
 
-puts"Who you want to kill"
+puts"Who you want to kill?"
 n = gets.to_i
 
 arr.delete_at n - 1
