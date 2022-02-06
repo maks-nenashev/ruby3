@@ -1,9 +1,24 @@
+arr = ['Bob',"Max","Zak"]
+
+loop do
+
+    x = 0
+
+arr.each do |m|
+  
+    puts"#{x}. #{m}"
+      
+  x = x + 1
+
+  end
 
 
-arr = [1, 22, 33, 6.1, 'max']
+puts"Who you want to kill"
+n = gets.to_i
 
-arr.each {|x| puts x}
+arr.delete_at n - 1
 
+end
 
 
 puts "Program finished. Press Enter to exit."
