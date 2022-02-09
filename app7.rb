@@ -1,11 +1,11 @@
 arr = []
 loop do
   puts "Enter name to arr?"
-    s = gets.strip
-    if s == ""
+     name = gets.strip
+    if name == ""
       break #!!!
- end
-     arr << s
+   end
+     arr << name
 
     x = 0
 
