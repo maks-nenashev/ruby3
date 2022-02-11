@@ -8,7 +8,7 @@ elsif s == "S"
 elsif s == "P"
     user_choice = :paper
 else
-        puts "Can`t understand whte you want, sorry"
+        puts "Can`t understand whte you want, sorry..."
         
 end
 
@@ -21,4 +21,6 @@ if computer_choice == user_choice
 end
 
 
-
+puts "Program finished. Press Enter to exit."
+gets
+ 
