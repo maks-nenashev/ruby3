@@ -9,7 +9,7 @@ elsif s == "P"
     user_choice = :paper
 else
         puts "Can`t understand whte you want, sorry"
-        exit
+        
 end
 
  arr = [:rock, :scissoris, :paper]
@@ -21,6 +21,4 @@ if computer_choice == user_choice
 end
 
 
-puts "Program finished. Press Enter to exit."
-gets
- 
+
