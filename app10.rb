@@ -33,6 +33,6 @@ elsif item[2] == :second_win
 elsif item[2] == :draw
     puts "Draw!"
 end
+end
 puts "Program finished. Press Enter to exit."
 gets
-end
