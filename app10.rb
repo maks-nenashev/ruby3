@@ -21,7 +21,7 @@ matrix = [
 [:rock, :rock, :draw]
 ]
 
-matrix.each do |item|
+matrix.each do |item|  #method inspect
  
     if item[0] == user_choice && item[1] == computer_choice
 end
