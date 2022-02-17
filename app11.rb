@@ -27,15 +27,15 @@ matrix = [
  
 #for rock
 [:rock, :scissoris, :first_win],
-[:rock, :papir, :second_win],
+[:rock, :paper, :second_win],
  
 #for scissoris
-[:scissoris, :rock, :second_win],
-[:scissoris, :papir, :fiers_win],
+[:scissoris, :rock, :first_win],
+[:scissoris, :paper, :second_win],
  
-#for papir
-[:papir, :rock, :first_win],
-[:papir, :scissoris, :second_win],
+#for paper
+[:paper, :rock, :first_win],
+[:paper, :scissoris, :second_win],
 ]
 
 matrix.each do |item|  #method inspect
@@ -51,5 +51,6 @@ elsif item[2] == :draw
     puts "Draw!"
 end
 end
+
 puts "Program finished. Press Enter to exit."
 gets

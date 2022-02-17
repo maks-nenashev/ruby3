@@ -16,7 +16,7 @@ end
 
 computer_choice = arr[rand(0..2)]
 
-if computer_choice == user_choice
+if user_choice == computer_choice 
         puts "Nobody wins"
 end
 

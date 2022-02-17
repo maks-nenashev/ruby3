@@ -16,7 +16,7 @@ else
 computer_choice = arr[rand(0..2)]
 
 matrix = [
-[:rock, :papir, :first_win],
+[:rock, :paper, :first_win],
 [:rock, :scissoris, :second_win],
 [:rock, :rock, :draw]
 ]
