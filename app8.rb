@@ -14,7 +14,7 @@ loop do
     arr2 << age
     arr << arr2
       
-    x = 0
+    x = 1
 
 arr.each do |itom|
   

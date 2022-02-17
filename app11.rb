@@ -12,13 +12,30 @@ else
  end
 
  arr = [:rock, :scissoris, :paper]
+    
+computer_choice = arr[rand(0..2)] #computer choise
 
-computer_choice = arr[rand(0..2)]
+puts"User choice: #{user_choice}"
+puts "Computer choise: #{computer_choice}"
 
 matrix = [
-[:rock, :papir, :first_win],
-[:rock, :scissoris, :second_win],
-[:rock, :rock, :draw]
+ 
+#for draw
+[:rock, :rock, :draw],
+[:scissoris, :scissoris, :draw],
+[:paper, :paper, :draw],
+ 
+#for rock
+[:rock, :scissoris, :first_win],
+[:rock, :papir, :second_win],
+ 
+#for scissoris
+[:scissoris, :rock, :second_win],
+[:scissoris, :papir, :fiers_win],
+ 
+#for papir
+[:papir, :rock, :first_win],
+[:papir, :scissoris, :second_win],
 ]
 
 matrix.each do |item|  #method inspect
