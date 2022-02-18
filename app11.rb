@@ -5,7 +5,6 @@ s = gets.strip.capitalize
     user_choice = :rock
 elsif s == "S"
     user_choice = :scissoris
-
 elsif s == "P"
     user_choice = :paper
 else
