@@ -35,7 +35,7 @@ matrix = [
 [:paper, :scissoris, :second_win],
 ]
 
-puts"User choice: #{user_choice}"
+puts "User choice: #{user_choice}"
 puts "Computer choise: #{computer_choice}"
 
 matrix.each do |item|  #method inspect
