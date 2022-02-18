@@ -5,6 +5,7 @@ s = gets.strip.capitalize
     user_choice = :rock
 elsif s == "S"
     user_choice = :scissoris
+
 elsif s == "P"
     user_choice = :paper
 else
@@ -15,9 +16,6 @@ else
     
 computer_choice = arr[rand(0..2)] #computer choise
 
-puts"User choice: #{user_choice}"
-puts "Computer choise: #{computer_choice}"
-
 matrix = [
  
 #for draw
@@ -27,29 +25,32 @@ matrix = [
  
 #for rock
 [:rock, :scissoris, :first_win],
-[:rock, :papir, :second_win],
+[:rock, :paper, :second_win],
  
 #for scissoris
-[:scissoris, :rock, :second_win],
-[:scissoris, :papir, :fiers_win],
+[:scissoris, :rock, :first_win],
+[:scissoris, :paper, :second_win],
  
-#for papir
-[:papir, :rock, :first_win],
-[:papir, :scissoris, :second_win],
+#for paper
+[:paper, :rock, :first_win],
+[:paper, :scissoris, :second_win],
 ]
+
+puts"User choice: #{user_choice}"
+puts "Computer choise: #{computer_choice}"
 
 matrix.each do |item|  #method inspect
  
-    if item[0] == user_choice && item[1] == computer_choice
-end
-
+   if item[0] == user_choice && item[1] == computer_choice
+    
    if item[2] == :first_win
     puts "User wins!"
 elsif item[2] == :second_win
     puts "Computer wins!"
-elsif item[2] == :draw
+ else item[2] == :draw
     puts "Draw!"
-end
+   end
+  end
 end
 puts "Program finished. Press Enter to exit."
 gets

@@ -9,14 +9,18 @@ elsif s == "P"
     user_choice = :paper
 else
         puts "Can`t understand whte you want, sorry..."
-        
+     gets
+       exit
 end
 
  arr = [:rock, :scissoris, :paper]
 
 computer_choice = arr[rand(0..2)]
 
-if computer_choice == user_choice
+puts"User choice: #{user_choice}"
+puts "Computer choise: #{computer_choice}"
+
+if user_choice == computer_choice 
         puts "Nobody wins"
 end
 

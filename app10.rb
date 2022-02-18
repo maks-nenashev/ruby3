@@ -16,22 +16,25 @@ else
 computer_choice = arr[rand(0..2)]
 
 matrix = [
-[:rock, :papir, :first_win],
+[:rock, :paper, :first_win],
 [:rock, :scissoris, :second_win],
 [:rock, :rock, :draw]
 ]
 
+puts"User choice: #{user_choice}"
+puts "Computer choise: #{computer_choice}"
+
 matrix.each do |item|  #method inspect
  
     if item[0] == user_choice && item[1] == computer_choice
-end
-
+ 
    if item[2] == :first_win
     puts "User wins!"
 elsif item[2] == :second_win
     puts "Computer wins!"
-elsif item[2] == :draw
+else item[2] == :draw
     puts "Draw!"
+end
 end
 end
 puts "Program finished. Press Enter to exit."
