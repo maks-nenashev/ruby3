@@ -5,6 +5,7 @@ s = gets.strip.capitalize
     user_choice = :rock
 elsif s == "S"
     user_choice = :scissoris
+
 elsif s == "P"
     user_choice = :paper
 else
@@ -48,8 +49,8 @@ elsif item[2] == :second_win
     puts "Computer wins!"
  else item[2] == :draw
     puts "Draw!"
-end
-end
+   end
+  end
 end
 puts "Program finished. Press Enter to exit."
 gets
