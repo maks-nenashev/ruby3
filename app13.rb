@@ -17,7 +17,7 @@ print"Enter your phone!"
 
 phonebook.each do |key,value|
 
- puts"Name:#{key}.Phone:#{value}"
+ puts"Name: #{key}. Phone: #{value}"
 
   end
  end  
