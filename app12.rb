@@ -1,5 +1,4 @@
-
-  phonebook = {}
+honebook = {}
   
 loop do
 
@@ -13,6 +12,7 @@ print "Enter your name!"
 print"Enter your phone!"
     phone_number = gets.strip
   
+              #key       #value
     phonebook[name] = phone_number
 
       end
