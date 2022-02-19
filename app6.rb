@@ -7,17 +7,16 @@ loop do    #you can write "while, true"
 arr.each_with_index do |name, i|
   
     puts"#{i+1}. #{name}"
-      
-  #x = x + 1
+ end
 
-  end
+  #x = x + 1
 
 puts"Who you want to kill?"
 n = gets.to_i
 
- arr.delete_at n - 1
+arr.delete_at n - 1
 
-end
+ end
 
 puts "Program finished. Press Enter to exit."
 gets
