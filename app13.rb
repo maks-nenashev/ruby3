@@ -10,15 +10,17 @@ print "Enter your name!"
       end
 
 print"Enter your phone!"
-    phone_number = gets.strip
-  
-              #key       #value
-    phonebook[name] = phone_number
-
-     
-puts phonebook
+   phone_number = gets.strip
    
-   end
+            #key      #value
+  phonebook[name] = phone_number
+
+phonebook.each do |key,value|
+
+ puts"Name: #{key}. Phone: #{value}"
+
+  end
+ end  
 
 puts "Program finished. Press Enter to exit."
 gets
