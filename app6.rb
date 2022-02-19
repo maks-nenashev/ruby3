@@ -2,13 +2,13 @@ arr = ['Bob',"Max","Zak","Mark","Mubek"]
 
 loop do    #you can write "while, true"
 
-    x = 0
+    #x = 0
 
-arr.each do |m|
+arr.each_with_index do |name, i|
   
-    puts"#{x}. #{m}"
+    puts"#{i+1}. #{name}"
       
-  x = x + 1
+  #x = x + 1
 
   end
 
