@@ -1,4 +1,4 @@
-honebook = {}
+phonebook = {}
   
 loop do
 
@@ -15,9 +15,11 @@ print"Enter your phone!"
               #key       #value
     phonebook[name] = phone_number
 
-      end
+     
 puts phonebook
-    
+   
+end
+
 puts "Program finished. Press Enter to exit."
 gets
  
