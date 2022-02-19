@@ -3,7 +3,12 @@ cauntries = {
 "UA"=>"Ukraine",
   1 => 1.01
 }
-puts ["RU"]
+
+x = cauntries["RU"]
+
+puts "#{x}"
+
+
 
 
 
