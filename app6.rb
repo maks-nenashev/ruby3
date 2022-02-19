@@ -12,14 +12,12 @@ arr.each_with_index do |name, i|
 
   end
 
-
 puts"Who you want to kill?"
 n = gets.to_i
 
-arr.delete_at n - 1
+ arr.delete_at n - 1
 
 end
-
 
 puts "Program finished. Press Enter to exit."
 gets
