@@ -1,6 +1,6 @@
 num = 4
 
-arr = Array[1, 22, 33, 6.1, 'max']
+arr = %w[1 22 33 6.1 max]
 puts(arr)
 
 
