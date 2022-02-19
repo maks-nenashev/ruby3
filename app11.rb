@@ -5,7 +5,6 @@ s = gets.strip.capitalize
     user_choice = :rock
 elsif s == "S"
     user_choice = :scissoris
-
 elsif s == "P"
     user_choice = :paper
 else
@@ -36,7 +35,7 @@ matrix = [
 [:paper, :scissoris, :second_win],
 ]
 
-puts"User choice: #{user_choice}"
+puts "User choice: #{user_choice}"
 puts "Computer choise: #{computer_choice}"
 
 matrix.each do |item|  #method inspect

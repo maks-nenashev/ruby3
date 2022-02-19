@@ -21,7 +21,7 @@ matrix = [
 [:rock, :rock, :draw]
 ]
 
-puts"User choice: #{user_choice}"
+puts "User choice: #{user_choice}"
 puts "Computer choise: #{computer_choice}"
 
 matrix.each do |item|  #method inspect
@@ -34,8 +34,8 @@ elsif item[2] == :second_win
     puts "Computer wins!"
 else item[2] == :draw
     puts "Draw!"
-end
-end
+   end
+  end
 end
 puts "Program finished. Press Enter to exit."
 gets

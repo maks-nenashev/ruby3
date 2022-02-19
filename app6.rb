@@ -1,25 +1,22 @@
-arr = ['Bob',"Max","Zak","Mark","Mubek"]
+arr = %w[Bob Max Zak Mark Mubek]
 
 loop do    #you can write "while, true"
 
-    x = 0
+    #x = 0
 
-arr.each do |m|
+arr.each_with_index do |name, i|
   
-    puts"#{x}. #{m}"
-      
-  x = x + 1
+    puts"#{i+1}. #{name}"
+ end
 
-  end
-
+  #x = x + 1
 
 puts"Who you want to kill?"
 n = gets.to_i
 
 arr.delete_at n - 1
-
-end
-
+# exit????????????????????????????
+ end
 
 puts "Program finished. Press Enter to exit."
 gets

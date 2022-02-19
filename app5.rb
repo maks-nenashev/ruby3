@@ -1,12 +1,12 @@
 arr = [1, 22, 33, 6.1, 'max']
 
-x = 0
+#x = 0
 
-arr.each do |m|
+arr.each_with_index do |name, i|
   
-    puts"#{x} #{m}"
+    puts"#{i+1}. #{name}"
       
-  x = x + 1
+  #x = x + 1
 
 end
 
