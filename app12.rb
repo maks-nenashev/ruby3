@@ -18,7 +18,7 @@ print"Enter your phone!"
      
 puts phonebook
    
-end
+   end
 
 puts "Program finished. Press Enter to exit."
 gets
