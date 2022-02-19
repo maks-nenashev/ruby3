@@ -1,4 +1,4 @@
-arr = ['Bob',"Max","Zak","Mark","Mubek"]
+arr = %w[Bob Max Zak Mark Mubek]
 
 loop do    #you can write "while, true"
 
