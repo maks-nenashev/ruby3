@@ -9,12 +9,12 @@ word = gets.strip
     break
  end
 
-    arr = hh[word]
+     translation = hh[word]
 
     puts"Перевод слова:"
-    puts arr
+    puts translation
                             #length
-    puts "Кол во переводов: #{arr.size}"
+    puts "Кол во переводов: #{translation.size}"
 end
 
 puts "Program finished. Press Enter to exit."
