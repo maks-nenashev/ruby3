@@ -10,7 +10,7 @@ puts "#{x}"
 
 #!!!!!!!!!!!!!!!!!!
 
-options ={:font_size => 10, :font_family => "Arial"}
+options = {:font_size => 10, :font_family => "Arial"}
 
 z = options[:font_size]
 
