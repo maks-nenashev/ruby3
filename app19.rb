@@ -6,7 +6,7 @@ hh.each_value do |value|
 
 x = x + value.size
 
- end
+  end
 
 puts x
 
