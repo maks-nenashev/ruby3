@@ -1,6 +1,6 @@
-hh = {"cat" => ["кот", "кошка"],"dog" => ["собака","пес"], "girl" => ["девочка", "телка"]}
+hh = {"cat" => ["кот", "кошка"],"dog" => ["пес"], "girl" => ["девочка", "телка"]}
   
-if hh.has_value?["пес"]
+if hh.has_value? ["пес"]
 
 puts"Proverjaem znaczenie slowa #пес# (value) v nashem Hase!"
 
