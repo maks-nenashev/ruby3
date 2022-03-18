@@ -8,16 +8,15 @@ loop do
     
     a = rand(100..999)
 
-hh.each_key do |roll|
-  
-  if roll == a
-    
-    balance = balance + hh[roll]
-     
-     end
-    end
+  if hh[a]
 
-puts "Your balance is $ #{balance}"
+      balance = balance + hh[a]
+  else
+      balance = balance - 1
+    end
+    
+puts "Current combination: #{a}"
+puts "Your balance is $: #{balance}"
   end
 
 puts "Program finished. Press Enter to exit."
