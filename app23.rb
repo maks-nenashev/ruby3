@@ -17,6 +17,7 @@ hh.each_key do |roll|
      end
     end
 
+puts "Current combination: #{a}"     
 puts "Your balance is $ #{balance}"
   end
 

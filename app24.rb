@@ -11,11 +11,15 @@ loop do
   if hh[a]
 
       balance = balance + hh[a]
-  else
+  elsif
       balance = balance - 1
-    end
+  else
+      balance < 0
+    puts" You have lost all your money!"
+    exit
+  end
     
-puts "Current combination: #{a}"
+puts "Current combination: #{a}"                                                
 puts "Your balance is $: #{balance}"
   end
 
