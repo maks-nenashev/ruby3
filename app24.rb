@@ -14,12 +14,12 @@ loop do
   elsif
       balance = balance - 1
   else
-    balance < 0
+      balance < 0
     puts" You have lost all your money!"
     exit
-    end
+  end
     
-puts "Current combination: #{a}"
+puts "Current combination: #{a}"                                                
 puts "Your balance is $: #{balance}"
   end
 
