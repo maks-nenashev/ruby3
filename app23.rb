@@ -13,7 +13,7 @@ hh.each_key do |roll|
   if roll == a
     
     balance = balance + hh[roll]
-     
+  
      end
     end
 
