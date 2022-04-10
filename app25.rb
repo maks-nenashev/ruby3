@@ -1,10 +1,11 @@
  @hh = {}
  
-     def add_person name, age
-      @hh[name] = age
+     def add_person name, age        #dobowlenie pary w hash
+         puts"Already exists" if @hh[name] #<<<<<<Wazno!
+         @hh[name] = age   
       end
   
-     def show_hash
+     def show_hash                   #pokazywaet hash    
        @hh.keys.each do |key|
               age = @hh[key]
               puts"Name: #{key}, Age: #{age}"
@@ -12,7 +13,7 @@
       end
    
 loop do
-    
+                                     #Dobowlaet znaczenie 
     print "Enter name!"
     name = gets.strip
      
