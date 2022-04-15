@@ -16,7 +16,7 @@ book2 = {"Walt" => 33, "Lussi" => 22}
 book1.merge! book2 
 
 show_book book1 #show_book book
-
+ 
 puts "Program finished. Press Enter to exit."
 gets
  
