@@ -1,7 +1,9 @@
 def show_book book                      
+       puts"=========================="
        book.keys.each do |key|
               age = book[key]
               puts"Name: #{key}, Age: #{age}"
+       puts"=========================="
        end
       end
    
