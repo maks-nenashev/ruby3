@@ -3,8 +3,8 @@ def show_book book
        book.keys.each do |key|
               age = book[key]
               puts"Name: #{key}, Age: #{age}"
-       puts"=========================="
-       end
+          end
+       puts"=========================="                
       end
    
 book1 = {"Anna" => 12, "Gus" => 23, "Lida" => 43}  
