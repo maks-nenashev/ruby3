@@ -25,8 +25,9 @@ loop do
     print"Enter age!"
     age = gets.to_i
       
-    aa = {:name => name, :age => age}  #options
-    add_person aa
+    #aa = {:name => name, :age => age}  #options
+    #add_person aa
+    add_person :name => name, :age => age
   end
 
 puts "Program finished. Press Enter to exit."
