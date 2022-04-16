@@ -13,7 +13,7 @@ else
        exit
 end
 
- arr = [:rock, :scissoris, :paper]
+ arr = [:rock, :scissoris, :paper]#[rand(0..2)]
 
 computer_choice = arr[rand(0..2)]
 
