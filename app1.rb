@@ -8,4 +8,3 @@ puts arr
 
 puts "Program finished. Press Enter to exit."
 gets
- 
